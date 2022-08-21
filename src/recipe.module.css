@@ -1,0 +1,37 @@
+.recipe {
+	background-color: white;
+	opacity:92%;
+	display: inline-block;
+	margin: 0 0 1em;
+	width: 100%;
+	text-align: center;
+	padding: 10px;
+}
+
+.recipe:hover {
+
+	opacity:100%;
+	
+}
+
+.title {
+	padding:0 10px 10px 10px;
+}
+
+.ingredients{
+	list-style-type: none;
+	text-align:center;
+	font-style:italic;
+}
+
+.calories {
+	font-weight: bold;
+	font-size: 18px;
+	text-align: center;
+}
+.image{
+	padding: 10px 10px 0 10px;
+	width: 400px;
+	height: 400px;
+	
+}
