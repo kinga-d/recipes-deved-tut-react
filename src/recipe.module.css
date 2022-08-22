@@ -1,11 +1,10 @@
 .recipe {
 	background-color: white;
-	opacity:92%;
-	display: inline-block;
-	margin: 0 0 1em;
-	width: 100%;
-	text-align: center;
-	padding: 10px;
+	opacity: 92%;
+	font-family: 'Poppins', sans-serif;
+	padding: 1em;
+	margin: 0 0 1.5em;
+
 }
 
 .recipe:hover {
@@ -13,15 +12,19 @@
 	opacity:100%;
 	
 }
-
+.ingredientsTitle {
+	text-align: center;
+}
 .title {
-	padding:0 10px 10px 10px;
+	text-align: center;
 }
 
-.ingredients{
+.ingredients {
 	list-style-type: none;
-	text-align:center;
-	font-style:italic;
+	text-align: center;
+	font-style: italic;
+	text-align: center;
+	padding:0;
 }
 
 .calories {
@@ -29,9 +32,7 @@
 	font-size: 18px;
 	text-align: center;
 }
-.image{
-	padding: 10px 10px 0 10px;
-	width: 400px;
-	height: 400px;
-	
+.image {
+	width: 100%;
+	height: 100%;
 }

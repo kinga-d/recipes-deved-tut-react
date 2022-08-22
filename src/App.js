@@ -31,6 +31,7 @@ const App = () => {
 
     return (
         <div className="App">
+            <div className="header">
             <p className="title">Recipe finder</p>
             <div className="formCenter">
             <form onSubmit={getSearch} className="seach-form">
@@ -46,6 +47,8 @@ const App = () => {
                 </button>
                 </form>
                 </div>
+                </div>
+            <div className="recipesContainer">
             <div className="recipes">
             {recipes.map(recipe => (
                 <Recipe
@@ -56,7 +59,8 @@ const App = () => {
                     ingredients={recipe.recipe.ingredients}
                     
                 />))
-            }</div>
+                    }</div>
+                </div>
         </div>
     );
 };
